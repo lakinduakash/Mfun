@@ -5,6 +5,8 @@
  * Date: 5/13/17
  * Time: 10:28 AM
  */
+
+//check season and user level
 if($_SESSION['ulevel']==1){
     include 'include/db1.php';
 }
